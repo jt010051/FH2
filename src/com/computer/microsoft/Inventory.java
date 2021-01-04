@@ -31,11 +31,11 @@ public void in1() {
         
 
 
- Scanner r = new Scanner (list);
+ Scanner read = new Scanner (list);
  
  
- while (r.hasNextLine()) {
- 	String data = r.nextLine();
+ while (read.hasNextLine()) {
+ 	String data = read.nextLine();
  	System.out.println(data);
  	
  	
